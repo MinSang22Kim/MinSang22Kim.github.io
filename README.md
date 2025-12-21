@@ -1,8 +1,7 @@
-# MinSang Tech Archive
+# [MinSang Tech Archive](https://minsang22kim.github.io)
 
-Hugo 기반 개인 기술 블로그입니다.  
-노션에서 작성한 마크다운 문서를 이미지 포함하여 장기 아카이빙하고  
-SEO 친화적인 정적 사이트로 관리하는 것을 목표로 합니다.
+Hugo 기반 개인 기술 블로그입니다.
+노션 글들을 조금씩 이주하여 관리하려고 합니다.
 
 ## 1. 기술 스택
 
@@ -35,7 +34,8 @@ draft: false
 마크다운으로 본문을 자유롭게 작성
 ```
 
-### 2.3 이미지 추가
+### 2.3 이미지 추가 및 사용 예시
+
 ```bash
 mkdir -p static/images/posts/hello
 cp ~/Downloads/diagram.png static/images/posts/hello/

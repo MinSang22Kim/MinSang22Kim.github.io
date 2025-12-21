@@ -1,0 +1,30 @@
+# Hugo build
+/public/
+/resources/_gen/
+.hugo_build.lock
+hugo_stats.json
+
+# Hugo cache (optional)
+.hugo_cache/
+
+# OS
+.DS_Store
+.AppleDouble
+.LSOverride
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+*.orig
+
+# Temporary
+*.tmp
+*.temp
+*.bak
+
+# Logs
+*.log

@@ -1,7 +1,8 @@
 {
   "permissions": {
     "allow": [
-      "read"
+      "read",
+      "Bash(hugo --minify:*)"
     ]
   }
 }

@@ -1,4 +1,4 @@
-name: Deploy Hugo site
+name: Hugo CI/CD
 
 on:
   push:

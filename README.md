@@ -11,14 +11,14 @@ Hugo 기반 개인 기술 블로그입니다.<br>
 
 ## 2. 글 작성 방법
 
-### 2.1 새 글 생성
+### 2-1. 새 글 생성
 
 ```bash
 hugo new content/posts/example.md
 ```
 또는 에디터에서 직접 파일 생성
 
-### 2.2 Front Matter 및 본문 작성 예시
+### 2-2. Front Matter 및 본문 작성 예시
 
 ```yaml
 ---
@@ -45,7 +45,7 @@ draft: false
 마크다운으로 본문을 자유롭게 작성
 ```
 
-### 2.3 이미지 추가 예시
+### 2-3. 이미지 추가 예시
 
 ```bash
 mkdir -p static/images/posts/hello
@@ -53,7 +53,7 @@ cp ~/Downloads/diagram.png static/images/posts/hello/
 ```
 또는 에디터에서 직접 이미지 추가
 
-### 2.4 이미지 사용 예시
+### 2-4. 이미지 사용 예시
 ```bash
 ![다이어그램](/images/posts/hello/diagram.png)
 ```
